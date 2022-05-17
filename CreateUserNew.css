@@ -1,0 +1,15 @@
+.createusermain {
+    width: 90vw;
+    height: 90vh;
+    border: 1px solid black;
+    display: flex;
+}
+
+.left {
+    width: 50%;
+}
+
+.createuserimg {
+    width: 40vw;
+    height: 90vh;
+}

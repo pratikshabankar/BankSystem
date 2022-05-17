@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap");
+.nav-link {
+    margin-right: 15px;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    transition: 0.5s;
+}
+
+.navbar-brand {
+    color: #4c4b4b;
+    letter-spacing: 0.5px;
+}
+
+.navlinks :hover {
+    color: blue;
+    transform: scale(1.1);
+}
+
+a {
+    color: white;
+}
+
+.navbarUser {
+    background-color: transparent;
+    color: white;
+}
+
+h2 {
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    font-family: raleway;
+}
