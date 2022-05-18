@@ -8,13 +8,13 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="table.css">
-    <link rel="stylesheet" type="text/css" href="navbar.css">
+    <link rel="stylesheet" type="text/css" href="secondNavbar.css">
     <!-- <link rel="stylesheet" type="text/css" href="createuser.css"> -->
     <link rel="stylesheet" type="text/css" href="CreateUserNew.css">
 
 </head>
 
-<body>
+<bodys>
     <?php
     include 'conf.php';
     if (isset($_POST['submit'])) {
@@ -32,11 +32,11 @@
     ?>
     <?php include 'navbar.php'; ?>
 
-    
+
 
     <div class="createuserwindow">
         <div class="userWinContent">
-            
+
             <div class="left">
                 <img src="user.jpg" class="createuserimg">
             </div>
@@ -51,30 +51,33 @@
 
                         <div class="form-group mx-sm-3 mb-2">
                             <label for="inputPassword2" class="sr-only">NAME</label>
-                            <input type="text" class="form-control" id="inputPassword2" placeholder="NAME" name="name" required>
+                            <input type="text" class="form-control" id="inputPassword2" placeholder="NAME" name="name"
+                                required>
                         </div>
 
                         <div class="form-group mx-sm-3 mb-2">
                             <label for="inputPassword2" class="sr-only">Email</label>
-                            <input type="email" class="form-control" id="inputPassword2" placeholder="EMAIL" name="email"
-                                required>
+                            <input type="email" class="form-control" id="inputPassword2" placeholder="EMAIL"
+                                name="email" required>
                         </div>
 
                         <div class="form-group mx-sm-3 mb-4">
                             <label for="inputPassword2" class="sr-only">Balance</label>
-                            <input type="number" class="form-control" id="inputPassword2" placeholder="BALANCE" name="balance"
-                                required>
+                            <input type="number" class="form-control" id="inputPassword2" placeholder="BALANCE"
+                                name="balance" required>
                         </div>
                         <div class="form-group mx-sm-3 mb-2 ">
-                            <button type="submit" class="btn btn-primary form-control mb-2" value="CREATE" name="submit">CREATE</button>
-                            <button type="reset" class="btn btn-primary form-control mb-2" value="RESET" name="reset">RESET</button>
+                            <button type="submit" class="btn userBtn form-control mb-2" value="CREATE"
+                                name="submit">CREATE</button>
+                            <button type="reset" class="btn userBtn form-control mb-2" value="RESET"
+                                name="reset">RESET</button>
                         </div>
 
                     </div>
                 </form>
             </div>
         </div>
-        
+
     </div>
     <!-- </div>
     </div>
@@ -127,7 +130,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
     </script>
-</body>
+    </body>
 
 </html>
 <!doctype html>

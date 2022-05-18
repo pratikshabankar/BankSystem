@@ -1,6 +1,7 @@
 <!-- navbar -->
-<nav class="navbar navbar-expand-md navbar-light navbarUser navbar">
-    <!-- <nav class="navbar navbar-expand-md navbar-light navbarUser" > -->
+
+<!-- <nav class="navbar navbar-expand-md navbar-light navbarUser" > -->
+<!-- <nav class="navbar navbar-expand-md navbar-light navbarUser navbar">
     <a class="navbar-brand navlinks" style="color:white;" ; href="index.php">INDIAN BANK</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
@@ -21,4 +22,29 @@
                     History</a>
             </li>
     </div>
-</nav>
+</nav> -->
+
+<div class="customNav">
+    <div class="navleft">
+        <a class="navbarLinks" href="index.php">INDIAN BANK</a>
+    </div>
+    <div>
+        <ul class="navRight">
+            <li class="navItems">
+                <a class="navbarLinks" href="index.php">Home</a>
+            </li>
+            <li class="navItems">
+                <a class="navbarLinks" href="createuser.php">Create User</a>
+            </li>
+            <li class="navItems">
+                <a class="navbarLinks" href="transfermoney.php">Transfer Money</a>
+            </li>
+            <li class="navItems">
+                <a class="navbarLinks" href="transactionhistory.php">Transaction
+                    History</a>
+            </li>
+        </ul>
+
+    </div>
+
+</div>

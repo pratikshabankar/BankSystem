@@ -1,5 +1,32 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap");
-.nav-link {
+
+.customNav{
+        display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.navRight{
+    display: flex;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+  cursor: pointer;
+  color: blue;
+  transform: scale(1.1);
+}
+.navItems{
+    padding: 0rem 1rem;
+}
+
+/* .nav-link {
     margin-right: 15px;
     color: #ffffff;
     letter-spacing: 0.5px;
@@ -29,4 +56,4 @@ h2 {
     color: #ffffff;
     letter-spacing: 0.5px;
     font-family: raleway;
-}
+} */
