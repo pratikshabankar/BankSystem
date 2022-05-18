@@ -17,64 +17,68 @@
 <body>
     <?php
     include 'conf.php';
-    if(isset($_POST['submit'])){
-    $name=$_POST['name'];
-    $email=$_POST['email'];
-    $balance=$_POST['balance'];
-    $sql="insert into user(id,name,email,balance) values('{$id}','{$name}','{$email}','{$balance}')";
-    $result=mysqli_query($conn,$sql);
-    if($result){
-               echo "<script> alert('Hurray! User created');
+    if (isset($_POST['submit'])) {
+        $name = $_POST['name'];
+        $email = $_POST['email'];
+        $balance = $_POST['balance'];
+        $sql = "insert into user(id,name,email,balance) values('{$id}','{$name}','{$email}','{$balance}')";
+        $result = mysqli_query($conn, $sql);
+        if ($result) {
+            echo "<script> alert('Hurray! User created');
                                window.location='transfermoney.php';
                      </script>";
-
+        }
     }
-  }
-?>
-    <?php
-  include 'navbar.php';
-?>
+    ?>
+    <?php include 'navbar.php'; ?>
 
-    <h2 style="color:black">Create a User</h2>
-    <br>
+    
 
     <div class="createuserwindow">
-        <div class="left">
-            <img src="user.jpg" class="createuserimg">
-        </div>
+        <div class="userWinContent">
+            
+            <div class="left">
+                <img src="user.jpg" class="createuserimg">
+            </div>
 
-        <div class="right">
-            <div class="container">
+            <div class="right">
+                <form class="app-form" method="post">
+                    <div class="container">
+                        <div class="form-group mx-sm-3 mb-2 ">
+                            <h2 style="color:black; font-family:sans-serif">Create a user</h2>
+                            <br>
+                        </div>
 
+                        <div class="form-group mx-sm-3 mb-2">
+                            <label for="inputPassword2" class="sr-only">NAME</label>
+                            <input type="text" class="form-control" id="inputPassword2" placeholder="NAME" name="name" required>
+                        </div>
 
-                <div class="form-group mx-sm-3 mb-2">
-                    <label for="inputPassword2" class="sr-only">NAME</label>
-                    <input type="text" class="form-control" id="inputPassword2" placeholder="NAME" name="name" required>
-                </div>
+                        <div class="form-group mx-sm-3 mb-2">
+                            <label for="inputPassword2" class="sr-only">Email</label>
+                            <input type="email" class="form-control" id="inputPassword2" placeholder="EMAIL" name="email"
+                                required>
+                        </div>
 
-                <div class="form-group mx-sm-3 mb-2">
-                    <label for="inputPassword2" class="sr-only">Email</label>
-                    <input type="email" class="form-control" id="inputPassword2" placeholder="EMAIL" name="email"
-                        required>
-                </div>
+                        <div class="form-group mx-sm-3 mb-4">
+                            <label for="inputPassword2" class="sr-only">Balance</label>
+                            <input type="number" class="form-control" id="inputPassword2" placeholder="BALANCE" name="balance"
+                                required>
+                        </div>
+                        <div class="form-group mx-sm-3 mb-2 ">
+                            <button type="submit" class="btn btn-primary form-control mb-2" value="CREATE" name="submit">CREATE</button>
+                            <button type="reset" class="btn btn-primary form-control mb-2" value="RESET" name="reset">RESET</button>
+                        </div>
 
-                <div class="form-group mx-sm-3 mb-2">
-                    <label for="inputPassword2" class="sr-only">Balance</label>
-                    <input type="number" class="form-control" id="inputPassword2" placeholder="BALANCE" name="balance"
-                        required>
-                </div>
-                <div class="form-group mx-sm-3 mb-2">
-                    <button type="submit" class="btn btn-primary mb-2" value="CREATE" name="submit">CREATE</button>
-                    <button type="reset" class="btn btn-primary mb-2" value="RESET" name="reset">RESET</button>
-
-                </div>
+                    </div>
                 </form>
             </div>
         </div>
+        
     </div>
+    <!-- </div>
     </div>
-    </div>
-    </div>
+    </div> -->
 
     <!-- <div class="background">
         <div class="container">
