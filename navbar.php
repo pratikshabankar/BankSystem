@@ -11,7 +11,7 @@
                 <a class="nav-link navlinks" style="color:white;" ; href="index.php">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link navlinks" style="color:white;" ; href="CreateUserNew.php">Create User</a>
+                <a class="nav-link navlinks" style="color:white;" ; href="createuser.php">Create User</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link navlinks" style="color:white;" ; href="transfermoney.php">Transfer Money</a>

@@ -1,6 +1,12 @@
-.createusermain {
-    width: 90vw;
-    height: 90vh;
+.createuserwindow {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* .createusermain {
+    width: 70vw;
+    height: 80vh;
     border: 1px solid black;
     display: flex;
 }
@@ -11,5 +17,5 @@
 
 .createuserimg {
     width: 40vw;
-    height: 90vh;
-}
+    height: 80vh;
+} */
