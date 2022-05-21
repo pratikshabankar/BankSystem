@@ -26,6 +26,25 @@ a:hover {
     padding: 0rem 1rem;
 }
 
+/* .customNav a:before
+{
+    position: absolute;
+    width: fit-content;
+    height: 2px;
+    left: 0px;
+    top: 0px;
+    content: '';
+    background: #FFF;
+    opacity: 0.3;
+    transition: all 0.3s;
+}
+
+.customNav a:hover:before
+{
+    height: fit-content;
+} */
+
+
 /* .nav-link {
     margin-right: 15px;
     color: #ffffff;

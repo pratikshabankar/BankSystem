@@ -21,9 +21,26 @@ a:hover {
     text-decoration: none;
   cursor: pointer;
   color: blue;
-  transform: scale(1.1);
+  transform: scale(2);
 }
 .navItems{
     padding: 0rem 1rem;
 }
 
+/* .customNav a:before
+{
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    left: 0px;
+    top: 0px;
+    content: '';
+    background: #FFF;
+    opacity: 0.3;
+    transition: all 0.3s;
+}
+
+.customNav a:hover:before
+{
+    height: fit-content;
+} */

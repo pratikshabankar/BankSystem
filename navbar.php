@@ -28,7 +28,7 @@
     <div class="navleft">
         <a class="navbarLinks" href="index.php">INDIAN BANK</a>
     </div>
-    <div>
+    <div class="pullDown">
         <ul class="navRight">
             <li class="navItems">
                 <a class="navbarLinks" href="index.php">Home</a>
